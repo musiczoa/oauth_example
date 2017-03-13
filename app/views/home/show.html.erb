@@ -1,0 +1,12 @@
+<h1>Home#show</h1>
+<p>Find me in app/views/home/show.html.erb</p>
+
+kind = <%= @view %> <br><br>
+
+<% if @token.nil? %>
+    token is nil!!!
+<% else %>
+    oauth_token = <%= @token.oauth_token %> <br><br>
+    oauth_expires_at = <%= @token.oauth_expires_at %> <br>
+<% end %>
+

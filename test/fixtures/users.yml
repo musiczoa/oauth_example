@@ -1,0 +1,16 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  provider: MyString
+  uid: MyString
+  name: MyString
+  oauth_token: ya29.GlwKBC694jDWhhINHVvABke9RJXoZ-sUggXAX1cQz9INnexnivolv9ivv_yhyLxcQKLoSL-1ZXPdwMg8jmwCiAuSTU1x2EI8-4IfzRY9k8YFxFcm3_ei-d7_esW15Q
+
+  oauth_expires_at: 2017-03-10 18:19:30
+
+two:
+  provider: MyString
+  uid: MyString
+  name: MyString
+  oauth_token: ya29.GlwJBDaF2DP8dpV4IdPx3rVM6H-TcIo3wIBGCATpE2Q-YBEKXE47kaFCKpxTHED91t_Wmpo0vmucHDaA8yh_MhKNGHNS5yUMCKDzhcvth1hbNcpq52kHj_XrSlxq0Q
+  oauth_expires_at: 2017-02-27 20:52:39

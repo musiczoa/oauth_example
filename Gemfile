@@ -9,10 +9,10 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
 # Use sqlite3 as the database for Active Record
-group :development, :test do
+group :development do
   gem 'sqlite3'
 end
-group :production, :staging do
+group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
@@ -61,3 +61,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'omniauth-google-oauth2'
 gem 'httparty'
 gem 'rack-cors'
+gem 'bourbon'

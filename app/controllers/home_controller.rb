@@ -1,4 +1,5 @@
 require 'net/https'
+require 'securerandom'
 
 class HomeController < ApplicationController
   include HTTParty
@@ -13,6 +14,7 @@ class HomeController < ApplicationController
   end
 
   def make_developer_payload
-
+    @uid = SecureRandom.uuid
+    @uid
   end
 end

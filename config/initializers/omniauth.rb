@@ -7,4 +7,5 @@ Rails.application.config.middleware.use OmniAuth::Builder do
                :access_type => 'offline'
            }
   # OmniAuth.config.on_failure = SessionsController.action(:oauth_failure)
+  OmniAuth.config.full_host = Rails.env.production? ? 'https://oauth-example.herokuapp.com' : 'http://localhost:3000'
 end
